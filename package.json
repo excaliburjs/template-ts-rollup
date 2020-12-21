@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -f umd -w",
+    "test": "npm run build && node ./test/test.js",
     "start": "npm-run-all --parallel server watch",
     "server": "serve public"
   },
@@ -35,6 +36,10 @@
     "rollup-plugin-styles": "3.11.0",
     "serve": "11.3.2",
     "tslib": "2.0.3",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "node-static": "0.7.11",
+    "pixelmatch": "5.2.1",
+    "pngjs": "6.0.0",
+    "puppeteer": "5.5.0"
   }
 }
