@@ -1,6 +1,6 @@
 # Excalibur TypeScript & Rollup template
 
-**⚠ Warning** Rollup does a great job at building libraries, not necessarily apps like a game in excalibur. This template is sub-optimal and does not provide tree shaking, the whole of excalibur is included in the bundle
+**⚠ Warning** Rollup does a great job at building libraries, not necessarily apps like a game in excalibur. This template is sub-optimal and does not provide tree shaking, the whole of excalibur is included in the bundle. We recommend using the [webpack](https://github.com/excaliburjs/template-ts-webpack) or [parcel](https://github.com/excaliburjs/template-ts-parcel) templates to build games if possible.
 
 ## Getting Started
 
