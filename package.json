@@ -5,8 +5,8 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -f umd -w",
-    "dev": "npm-run-all --parallel start watch",
-    "start": "serve public"
+    "start": "npm-run-all --parallel server watch",
+    "server": "serve public"
   },
   "repository": {
     "type": "git",
