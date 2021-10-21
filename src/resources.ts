@@ -1,8 +1,8 @@
-import { Resource, Texture } from "excalibur";
+import { ImageSource, Resource, } from "excalibur";
 import sword from "./images/sword.png";
 
 let Resources = {
-  Sword: new Texture(sword),
+  Sword: new ImageSource(sword),
 };
 
 export { Resources };
