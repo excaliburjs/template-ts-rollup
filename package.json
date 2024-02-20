@@ -29,7 +29,7 @@
     "@rollup/plugin-image": "3.0.3",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-typescript": "11.1.6",
-    "excalibur": "0.28.7",
+    "excalibur": "0.29.0",
     "npm-run-all2": "5.0.2",
     "rollup": "4.12.0",
     "serve": "14.2.1",
