@@ -32,7 +32,7 @@
     "excalibur": "0.29.2",
     "npm-run-all2": "5.0.2",
     "rollup": "4.16.4",
-    "serve": "14.2.2",
+    "serve": "14.2.3",
     "tslib": "2.6.2",
     "typescript": "5.4.5",
     "@excaliburjs/testing": "0.25.1"
