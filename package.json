@@ -33,7 +33,7 @@
     "npm-run-all2": "5.0.2",
     "rollup": "4.18.0",
     "serve": "14.2.3",
-    "tslib": "2.6.2",
+    "tslib": "2.6.3",
     "typescript": "5.4.5",
     "@excaliburjs/testing": "0.25.1"
   }
