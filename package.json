@@ -35,6 +35,6 @@
     "serve": "14.2.3",
     "tslib": "2.7.0",
     "typescript": "5.5.4",
-    "@excaliburjs/testing": "0.25.1"
+    "@excaliburjs/testing": "0.26.0"
   }
 }
