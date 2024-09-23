@@ -27,7 +27,7 @@
   "homepage": "https://github.com/excaliburjs/template-ts-rollup#readme",
   "devDependencies": {
     "@rollup/plugin-image": "3.0.3",
-    "@rollup/plugin-node-resolve": "15.2.4",
+    "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-typescript": "11.1.6",
     "excalibur": "0.29.3",
     "npm-run-all2": "5.0.2",
