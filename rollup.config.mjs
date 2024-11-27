@@ -4,10 +4,10 @@ import resolve from '@rollup/plugin-node-resolve';
 import image from '@rollup/plugin-image';
 
 export default defineConfig({
-  input: 'src/index.ts',
+  input: 'src/main.ts',
   output: {
     file: 'public/bundle.js',
-    format: 'umd',
+    format: 'esm',
     sourcemap: true
   },
   // Order of plugins important

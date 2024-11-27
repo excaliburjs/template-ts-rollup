@@ -1,6 +1,12 @@
 # Excalibur TypeScript & Rollup template
 
-Excalibur Rollup Template
+Check out the full documentation @ https://excaliburjs.com
+
+You can use the excalibur cli to generate this template
+
+```sh
+npm create excalibur
+```
 
 ## Getting Started
 

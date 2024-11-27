@@ -4,10 +4,11 @@
   "description": "Excalibur with Rollup.js Template",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c -f umd -w",
-    "test": "npm run build && ex-test -d ./public -t ./test/test.js",
-    "start": "npm-run-all --parallel server watch",
-    "server": "serve public"
+    "watch": "rollup -c -f esm -w",
+    "test": "npm run build && npx playwright test",
+    "test:integration-update": "npx playwright test --update-snapshots",
+    "start": "npm-run-all --parallel serve watch",
+    "serve": "serve public"
   },
   "repository": {
     "type": "git",
@@ -25,16 +26,19 @@
     "url": "https://github.com/excaliburjs/template-ts-rollup/issues"
   },
   "homepage": "https://github.com/excaliburjs/template-ts-rollup#readme",
+  "dependencies": {
+    "excalibur": "0.30.0-alpha.1267"
+  },
   "devDependencies": {
     "@rollup/plugin-image": "3.0.3",
     "@rollup/plugin-node-resolve": "15.3.0",
-    "@rollup/plugin-typescript": "11.1.6",
-    "excalibur": "0.29.3",
-    "npm-run-all2": "5.0.2",
+    "@rollup/plugin-typescript": "12.1.1",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "npm-run-all2": "7.0.1",
     "rollup": "4.27.4",
     "serve": "14.2.4",
     "tslib": "2.8.1",
-    "typescript": "5.7.2",
-    "@excaliburjs/testing": "0.26.0"
+    "typescript": "5.7.2"
   }
 }
