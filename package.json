@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/excaliburjs/template-ts-rollup#readme",
   "dependencies": {
-    "excalibur": "0.30.0-alpha.1280"
+    "excalibur": "0.30.0-alpha.1282"
   },
   "devDependencies": {
     "@rollup/plugin-image": "3.0.3",
